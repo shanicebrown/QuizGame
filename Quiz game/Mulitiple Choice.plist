@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Answers</key>
+			<array>
+				<string>1990</string>
+				<string>2000</string>
+				<string>2010</string>
+				<string>2017</string>
+			</array>
+			<key>Question</key>
+			<string>What year is it?</string>
+			<key>Correct Answer</key>
+			<string>2017</string>
+		</dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Ares</string>
+                <string>Hades</string>
+                <string>Zeus</string>
+                <string>Jupiter</string>
+            </array>
+            <key>Question</key>
+            <string>Who is the father of the Gods in Greek Mythology?</string>
+            <key>Correct Answer</key>
+            <string>Zeus</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Blue</string>
+                <string>Green</string>
+                <string>Red</string>
+                <string>Yellow</string>
+            </array>
+            <key>Question</key>
+            <string>What color is the sky?</string>
+            <key>Correct Answer</key>
+            <string>Blue</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>United Kingdom</string>
+                <string>USA</string>
+                <string>Canada</string>
+                <string>Cuba</string>
+            </array>
+            <key>Question</key>
+            <string>What country is Drake from?</string>
+            <key>Correct Answer</key>
+            <string>Canada</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Yo mama</string>
+                <string>Yo daddy</string>
+                <string>Yo greasy head granny got HOLES in her panties</string>
+                <string>Shanice</string>
+            </array>
+            <key>Question</key>
+            <string>Who made this game?</string>
+            <key>Correct Answer</key>
+            <string>Shanice</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>Yes</string>
+                <string>No</string>
+                <string>I still don't know'</string>
+                <string>Maybe</string>
+            </array>
+            <key>Question</key>
+            <string>Did you know Shanice knew how to code?</string>
+            <key>Correct Answer</key>
+            <string>Yes</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>New York</string>
+                <string>Chicago</string>
+                <string>Los Angeles</string>
+                <string>San Francisco</string>
+            </array>
+            <key>Question</key>
+            <string>What city is the Golden Gate Bridge in?</string>
+            <key>Correct Answer</key>
+            <string>San Francisco</string>
+        </dict>
+        <dict>
+            <key>Answers</key>
+            <array>
+                <string>I don't know</string>
+                <string>World Wide Developers Conference</string>
+                <string>What Would Dallas Cook</string>
+                <string>Woo Woo Don't Call</string>
+            </array>
+            <key>Question</key>
+            <string>What does WWDC stand for?</string>
+            <key>Correct Answer</key>
+            <string>World Wide Developers Conference</string>
+        </dict>
+	</array>
+</dict>
+</plist>

@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393A30771EEB404D002176B6 /* Constants+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393A30761EEB404D002176B6 /* Constants+Extensions.swift */; };
+		393A307A1EEB4DEA002176B6 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 393A30791EEB4DEA002176B6 /* logo.jpg */; };
 		39EBAD3A1EE9041D00D02BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD391EE9041D00D02BB0 /* AppDelegate.swift */; };
-		39EBAD3C1EE9041D00D02BB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD3B1EE9041D00D02BB0 /* ViewController.swift */; };
+		39EBAD3C1EE9041D00D02BB0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD3B1EE9041D00D02BB0 /* MenuViewController.swift */; };
 		39EBAD3F1EE9041D00D02BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EBAD3D1EE9041D00D02BB0 /* Main.storyboard */; };
 		39EBAD411EE9041D00D02BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EBAD401EE9041D00D02BB0 /* Assets.xcassets */; };
 		39EBAD441EE9041D00D02BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EBAD421EE9041D00D02BB0 /* LaunchScreen.storyboard */; };
 		39EBAD4F1EE9041D00D02BB0 /* Quiz_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD4E1EE9041D00D02BB0 /* Quiz_gameTests.swift */; };
 		39EBAD5A1EE9041D00D02BB0 /* Quiz_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD591EE9041D00D02BB0 /* Quiz_gameUITests.swift */; };
+		39EBAD6E1EE90A4000D02BB0 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD6D1EE90A4000D02BB0 /* RoundedButton.swift */; };
+		39EBAD701EE90AEB00D02BB0 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAD6F1EE90AEB00D02BB0 /* RoundedLabel.swift */; };
+		39F873E81EEB627A00E4DE61 /* TournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F873E71EEB627A00E4DE61 /* TournamentViewController.swift */; };
+		39F873EA1EEB95E600E4DE61 /* Mulitiple Choice.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39F873E91EEB95E600E4DE61 /* Mulitiple Choice.plist */; };
+		39F873EC1EEB9B6300E4DE61 /* QuizLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F873EB1EEB9B6300E4DE61 /* QuizLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		393A30761EEB404D002176B6 /* Constants+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constants+Extensions.swift"; sourceTree = "<group>"; };
+		393A30791EEB4DEA002176B6 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../../../logo.jpg; sourceTree = "<group>"; };
 		39EBAD361EE9041D00D02BB0 /* Quiz game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EBAD391EE9041D00D02BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39EBAD3B1EE9041D00D02BB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39EBAD3B1EE9041D00D02BB0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		39EBAD3E1EE9041D00D02BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39EBAD401EE9041D00D02BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39EBAD431EE9041D00D02BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		39EBAD551EE9041D00D02BB0 /* Quiz gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EBAD591EE9041D00D02BB0 /* Quiz_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_gameUITests.swift; sourceTree = "<group>"; };
 		39EBAD5B1EE9041D00D02BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39EBAD6D1EE90A4000D02BB0 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		39EBAD6F1EE90AEB00D02BB0 /* RoundedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		39F873E71EEB627A00E4DE61 /* TournamentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentViewController.swift; sourceTree = "<group>"; };
+		39F873E91EEB95E600E4DE61 /* Mulitiple Choice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mulitiple Choice.plist"; sourceTree = "<group>"; };
+		39F873EB1EEB9B6300E4DE61 /* QuizLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393A30781EEB4DA3002176B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				393A30791EEB4DEA002176B6 /* logo.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		39EBAD2D1EE9041C00D02BB0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +119,12 @@
 		39EBAD381EE9041D00D02BB0 /* Quiz game */ = {
 			isa = PBXGroup;
 			children = (
-				39EBAD391EE9041D00D02BB0 /* AppDelegate.swift */,
-				39EBAD3B1EE9041D00D02BB0 /* ViewController.swift */,
-				39EBAD3D1EE9041D00D02BB0 /* Main.storyboard */,
-				39EBAD401EE9041D00D02BB0 /* Assets.xcassets */,
-				39EBAD421EE9041D00D02BB0 /* LaunchScreen.storyboard */,
-				39EBAD451EE9041D00D02BB0 /* Info.plist */,
+				39EBAD6C1EE9050200D02BB0 /* Questions */,
+				39EBAD6B1EE904F800D02BB0 /* Resources */,
+				39EBAD6A1EE904DD00D02BB0 /* Custom */,
+				39EBAD691EE904D200D02BB0 /* Controller */,
+				39EBAD681EE904B200D02BB0 /* Templete */,
+				39EBAD671EE904A600D02BB0 /* UI */,
 			);
 			path = "Quiz game";
 			sourceTree = "<group>";
@@ -123,6 +145,61 @@
 				39EBAD5B1EE9041D00D02BB0 /* Info.plist */,
 			);
 			path = "Quiz gameUITests";
+			sourceTree = "<group>";
+		};
+		39EBAD671EE904A600D02BB0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				39EBAD401EE9041D00D02BB0 /* Assets.xcassets */,
+				39EBAD421EE9041D00D02BB0 /* LaunchScreen.storyboard */,
+				39EBAD3D1EE9041D00D02BB0 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		39EBAD681EE904B200D02BB0 /* Templete */ = {
+			isa = PBXGroup;
+			children = (
+				39EBAD451EE9041D00D02BB0 /* Info.plist */,
+				39EBAD391EE9041D00D02BB0 /* AppDelegate.swift */,
+			);
+			name = Templete;
+			sourceTree = "<group>";
+		};
+		39EBAD691EE904D200D02BB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39EBAD3B1EE9041D00D02BB0 /* MenuViewController.swift */,
+				39F873E71EEB627A00E4DE61 /* TournamentViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39EBAD6A1EE904DD00D02BB0 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				39EBAD6D1EE90A4000D02BB0 /* RoundedButton.swift */,
+				39EBAD6F1EE90AEB00D02BB0 /* RoundedLabel.swift */,
+				393A30761EEB404D002176B6 /* Constants+Extensions.swift */,
+				39F873EB1EEB9B6300E4DE61 /* QuizLoader.swift */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		39EBAD6B1EE904F800D02BB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				393A30781EEB4DA3002176B6 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39EBAD6C1EE9050200D02BB0 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				39F873E91EEB95E600E4DE61 /* Mulitiple Choice.plist */,
+			);
+			name = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393A307A1EEB4DEA002176B6 /* logo.jpg in Resources */,
 				39EBAD441EE9041D00D02BB0 /* LaunchScreen.storyboard in Resources */,
+				39F873EA1EEB95E600E4DE61 /* Mulitiple Choice.plist in Resources */,
 				39EBAD411EE9041D00D02BB0 /* Assets.xcassets in Resources */,
 				39EBAD3F1EE9041D00D02BB0 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EBAD3C1EE9041D00D02BB0 /* ViewController.swift in Sources */,
+				39EBAD3C1EE9041D00D02BB0 /* MenuViewController.swift in Sources */,
+				39EBAD6E1EE90A4000D02BB0 /* RoundedButton.swift in Sources */,
+				39EBAD701EE90AEB00D02BB0 /* RoundedLabel.swift in Sources */,
+				39F873E81EEB627A00E4DE61 /* TournamentViewController.swift in Sources */,
 				39EBAD3A1EE9041D00D02BB0 /* AppDelegate.swift in Sources */,
+				39F873EC1EEB9B6300E4DE61 /* QuizLoader.swift in Sources */,
+				393A30771EEB404D002176B6 /* Constants+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanice.Quiz-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -431,6 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Shanice.Quiz-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -507,6 +593,7 @@
 				39EBAD601EE9041D00D02BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39EBAD611EE9041D00D02BB0 /* Build configuration list for PBXNativeTarget "Quiz gameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +602,7 @@
 				39EBAD631EE9041D00D02BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39EBAD641EE9041D00D02BB0 /* Build configuration list for PBXNativeTarget "Quiz gameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +611,7 @@
 				39EBAD661EE9041D00D02BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
